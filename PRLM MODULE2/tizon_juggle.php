@@ -24,12 +24,9 @@ $candies = [
 ?>
 
 <div class="card">
-    <h1>Type Juggle Lab <span class="badge">Strings vs Numbers</span></h1>
+    <h1>Tax <span class="badge">Calculator</span></h1>
     <p class="lead">
-        Here the prices start as <strong>strings</strong>. PHP automatically
-        performs <strong>type juggling</strong> when we add them. Casting with
-        <code>(int)</code> and <code>(float)</code> keeps the candy math under
-        control.
+     
     </p>
 
     <table>
