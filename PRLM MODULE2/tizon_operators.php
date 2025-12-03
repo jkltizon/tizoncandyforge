@@ -1,8 +1,7 @@
 <?php include 'header.php'; ?>
 
 <?php
-// tizon_operators.php
-// Demonstrates arithmetic operators and conditional statements
+ 
 
 $candies = [
     [
@@ -24,11 +23,9 @@ $candies = [
 ?>
 
 <div class="card">
-    <h1>Operator Arena <span class="badge">Math in Action</span></h1>
+    <h1>Price <span class="badge">Conversion</span></h1>
     <p class="lead">
-        This table uses PHP <strong>operators</strong> to calculate tax, discounts
-        and final prices. Arithmetic and comparison operators work together with
-        <strong>if / else</strong> to decide when a candy deserves a “Boss Deal”.
+    
     </p>
 
     <table>
