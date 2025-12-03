@@ -5,7 +5,7 @@
 
 $candies = [];
 
-// Candy 1
+
 $name1          = "Blaster Berry Bars";
 $price1         = 15;         
 $rating1        = 4.5;        
@@ -52,11 +52,8 @@ $candies[] = [
 ?>
 
 <div class="card">
-    <h1>Variables Loadout <span class="badge">Module 2 • Basics</span></h1>
+    <h1>Overview <span class="badge">Product</span></h1>
     <p class="lead">
-        Each candy below is powered by different <strong>PHP variables</strong>:
-        strings, integers, floats and booleans. A loop prints them all, and
-        a condition highlights limited-edition packs.
     </p>
 
     <table>
@@ -82,7 +79,7 @@ $candies[] = [
                 <td class="numeric"><?php echo $candy["rating"]; ?></td>
                 <td>
                     <?php if ($candy["isLimited"]): ?>
-                        <span class="status-flag status-boost">Limited Run ⚔️</span>
+                        <span class="status-flag status-boost">Limited Run </span>
                     <?php else: ?>
                         <span class="status-flag status-warning">Regular Squad</span>
                     <?php endif; ?>
