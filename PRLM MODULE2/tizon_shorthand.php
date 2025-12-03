@@ -14,11 +14,9 @@ $totalSaved      = 0;
 ?>
 
 <div class="card">
-    <h1>Shorthand Garage <span class="badge">+= • -= • .=</span></h1>
+    <h1>Discount <span class="badge">Offers</span></h1>
     <p class="lead">
-        Shorthand operators keep the code sharp. The loop below uses
-        <strong>+=</strong> and <strong>-=</strong> to build running totals for
-        the candy squad.
+       
     </p>
 
     <table>
