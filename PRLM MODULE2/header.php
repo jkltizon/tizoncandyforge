@@ -1,5 +1,5 @@
 <?php
-// header.php
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -239,14 +239,14 @@
 <body>
 <header>
     <div class="brand-bar">
-        <div class="brand-logo">⚡</div>
         <div class="brand-title">Tizon Candy Forge</div>
     </div>
     <nav>
-        <a href="tizon_variables.php">Variables</a>
-        <a href="tizon_operators.php">Operators</a>
-        <a href="tizon_shorthand.php">Shorthand</a>
-        <a href="tizon_juggle.php">Type Juggle</a>
+        <a href="tizon_variables.php">Overview</a>
+        <a href="tizon_operators.php">Conversion</a>
+        <a href="tizon_shorthand.php">Discount</a>
+        <a href="tizon_juggle.php">Tax</a>
+        <a href="functions.php">Stock Monitor</a>
     </nav>
 </header>
 
